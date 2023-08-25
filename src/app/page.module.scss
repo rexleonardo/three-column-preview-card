@@ -1,0 +1,15 @@
+.mainContainer {
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+
+    .mainContainer {
+        margin-top: 0;
+        height: 500px;
+        flex-direction: row;
+    }
+    
+}
